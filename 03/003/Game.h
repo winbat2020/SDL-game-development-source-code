@@ -29,10 +29,9 @@ public:
 		if(s_pInstance == 0)
 		{
 			s_pInstance = new Game();
-			return s_pInstance;
 		}
+		return s_pInstance;
 	}
-
 private:
 
 	Game() {};
